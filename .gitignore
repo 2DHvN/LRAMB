@@ -1,4 +1,7 @@
 # Byte-compiled / optimized / DLL files
+# Generated trajectory archives and standalone figures/videos (embedded outputs stay in notebooks)
+results/
+
 __pycache__/
 *.py[codz]
 *$py.class
@@ -218,3 +221,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+/scripts/
+/tests/
